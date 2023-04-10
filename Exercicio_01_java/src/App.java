@@ -92,10 +92,38 @@ public class App {
         System.out.printf("O dobro da area do quadrado é: " + area);*/
 
         // 8. Faça um programa que pergunte quanto voce ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
+        /*Scanner entrada = new Scanner(System.in);
+        int hora;
+        double valor;
+        double salario;
+
+        System.out.print("Digite quantas horas trabalhadas esse mes: ");
+        hora = entrada.nextInt();
+        System.out.print("Digite o valor da hora trabalhada: ");
+        valor = entrada.nextDouble();
+
+        salario = hora * valor;
+
+        System.out.printf("O seu salario deste mes será: " + salario);*/
 
         // 9. Faça um programa que peça a temperatura em graus Farenheit, transforme e mostre a temperatura em graus Celsius.
+        /*Scanner entrada = new Scanner(System.in);
+        double farenheit;
+        double celsius;
+
+        System.out.print("Digite quantos graus farenheit, deseja transformar em celsius: ");
+        farenheit = entrada.nextDouble();
+
+        celsius = (5 * (farenheit - 32) / 9);
+        System.out.printf("A temperatura em graus Celsius é: " + celsius);*/
 
         // 10. Faça um programa que peça a temperatura em graus Celsius, transforme e mostre em graus Farenheit.
+        /*Scanner entrada = new Scanner(System.in);
+        double celsius;
+        double farenheit;
+
+        System.out.print("Digite quantos graus Celsius deseja transformar em farenheit: ");
+        celsius = entrada.nextDouble();*/
 
         // 11. Faça um programa que peça 2 números inteiros e um número real. Calcule e mostre: a. o produto do dobro do primeiro com a metado do
             //a. o produto do dobro do primeiro com a metado do
