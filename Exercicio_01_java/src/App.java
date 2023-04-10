@@ -160,7 +160,7 @@ public class App {
         double altura;
         double peso;
 
-        System.out.print("Digite a altura da pessoa do qual voce deseja saber o pesso ideal: ");
+        System.out.print("Digite a altura da pessoa do qual voce deseja saber o peso ideal: ");
         altura = entrada.nextDouble();
 
         peso = (72.7*altura)-58;
@@ -169,6 +169,25 @@ public class App {
         // 13. Tendo como dado de entrada a altura (h) de uma pessoa, contrua um algoritmo que calcule seu peso ideal, utilizando as seguintes formulas:
             //Para Homens: (72.7*h) - 58
             //Para Mulheres: (62.1*h) - 44.7
+
+        Scanner entrada = new Scanner (System.in);
+        double altura;
+        double peso;
+        String sexo;
+        String masculino;
+        String feminino;
+
+        System.out.print("Digite M para Masculino e F para Feminino: ");
+        sexo = entrada.nextLine();
+
+        if String sexo == {
+            System.out.print("Digite a altura do Homem do qual voce deseja saber o peso ideal: ");
+            altura = entrada.nextDouble();
+
+            peso = (72.7*altura)-58;
+            System.out.printf("O peso ideal da pessoa com a altura informada é: " + peso);
+        }
+
 
         // 14. João Papo-de-Pescador, homen de bem, comprou um mocrocomputador para controlar o rendimento diário de seu trabalho. Toda vez que ele traz um peso de peixes maior que o estabelecido pelo regulamento de pesca do estado de São Paulo (50 quilos) deve pagar uma multa de R$ 4,00 por quilo excedente. João precisa que você faça um programa que leia a variável peso (peso de peixes) e calcule o excesso. Gravar na variável excesso a quantidade de quilos além do limite e na variável multa o valor da multa que João deverá pagar. Imprima os dados do programa com as mensagens adequadas.
 
