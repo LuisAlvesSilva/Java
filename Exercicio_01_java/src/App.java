@@ -60,11 +60,36 @@ public class App {
          */
 
         // 5. Faça um programa que converta metros para centimetros.
+        /*Scanner entrada = new Scanner(System.in);
+        float metros;
+        float centimetros;
 
+        System.out.print("Digite quantos centimetros quer transformar em metros: ");
+        centimetros = entrada.nextFloat();
+        metros = centimetros / 60;
+
+        System.out.printf(metros + "Metros");*/
 
         // 6. Faça um programa que peça o raio de um circulo, calcule e mostre sua area.
+        /*Scanner entrada = new Scanner(System.in);
+        double area;
+        double circulo;
+        
+        final double pi = 3.1416;
+        System.out.print("Digite o raio do circulo que deseja saber a area: ");
+        circulo = entrada.nextFloat();
+        area = pi * (circulo * circulo);
+        System.out.printf("A area do seu circulo é: " + area);*/
 
-        // 7. Faça um programa e calcule a area de um quadrado, em seguida mostro o doro desta area para o usuario.
+        // 7. Faça um programa e calcule a area de um quadrado, em seguida mostro o dobro desta area para o usuario.
+        /*Scanner entrada = new Scanner(System.in);
+        double area;
+        double quadrado;
+
+        System.out.print("Digite a area do quadrado: ");
+        quadrado = entrada.nextDouble();
+        area = quadrado * 2;
+        System.out.printf("O dobro da area do quadrado é: " + area);*/
 
         // 8. Faça um programa que pergunte quanto voce ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
 
