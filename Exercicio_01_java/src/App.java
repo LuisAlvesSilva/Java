@@ -123,7 +123,10 @@ public class App {
         double farenheit;
 
         System.out.print("Digite quantos graus Celsius deseja transformar em farenheit: ");
-        celsius = entrada.nextDouble();*/
+        celsius = entrada.nextDouble();
+
+        farenheit = (celsius * 1.8) + 32;
+        System.out.printf("A temperatura em graus Farenheit é: " + farenheit);*/
 
         // 11. Faça um programa que peça 2 números inteiros e um número real. Calcule e mostre: a. o produto do dobro do primeiro com a metado do
             //a. o produto do dobro do primeiro com a metado do
