@@ -132,8 +132,39 @@ public class App {
             //a. o produto do dobro do primeiro com a metado do
             //b. a soma do triplo do primeiro com o terceiro.
             //c. o terceiro elevado ao cubo.
+        /*Scanner entrada = new Scanner (System.in);
+        int numero_01;
+        int numero_02;
+        float numero_03;
+        
+        System.out.print("Digite o seu primeiro numero: ");
+        numero_01 = entrada.nextInt();
+        System.out.print("Digite o seu segundo numero: ");
+        numero_02 = entrada.nextInt();
+        System.out.print("Digite o seu terceiro numero: ");
+        numero_03 = entrada.nextFloat();
+
+        int dobro_metade;
+        dobro_metade = (numero_01 * 2) + (numero_02 / 2);
+        float soma_triplo;
+        soma_triplo = (numero_01 * 3) + numero_03;
+        float elevado;
+        elevado = ((numero_03 * 3)* 3)* 3;
+
+        System.out.printf("O dobro do primeiro numero com a metade do segundo numero: " + dobro_metade + "\n");
+        System.out.printf("A soma do triplo do primeiro numero com o terceiro numero: " + soma_triplo + "\n");
+        System.out.printf("Terceiro numero elevado ao cubo: " + elevado + "\n");*/
 
         // 12. Tendo como dados de entrada a altura de uma pessoa, contrua um algoritmo que calcule seu peso ideal, usando a seguinte formula: (72.7*altura)-58
+        /*Scanner entrada = new Scanner (System.in);
+        double altura;
+        double peso;
+
+        System.out.print("Digite a altura da pessoa do qual voce deseja saber o pesso ideal: ");
+        altura = entrada.nextDouble();
+
+        peso = (72.7*altura)-58;
+        System.out.printf("O peso ideal da pessoa com a altura informada é: " + peso);*/
 
         // 13. Tendo como dado de entrada a altura (h) de uma pessoa, contrua um algoritmo que calcule seu peso ideal, utilizando as seguintes formulas:
             //Para Homens: (72.7*h) - 58
